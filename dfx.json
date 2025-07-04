@@ -1,0 +1,16 @@
+{
+  "dfx": "0.20.0",
+  "canisters": {
+    "icp_health_vault_backend": {
+      "type": "motoko",
+      "main": "icp_health_vault_backend/src/icp_health_vault_backend_backend/main.mo",
+      "candid": "icp_health_vault_backend/src/icp_health_vault_backend_backend/icp_health_vault_backend.did"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}
